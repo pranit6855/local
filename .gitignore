@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Audio recordings & temporary data
+*.wav
+*.mp3
+*.ogg
+*.flac
+temp_recordings/
+*.tmp
+
+# HuggingFace & model weights cache
+models/
+huggingface/
+.cache/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System
+Thumbs.db
+Desktop.ini
+.DS_Store
